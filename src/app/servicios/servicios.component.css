@@ -1,0 +1,52 @@
+.service-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  height: 100%; /* Hace que todas las tarjetas tengan la misma altura */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Asegura que el contenido esté bien distribuido */
+}
+
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 10px; /* Opcional */
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-box img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .service-box img {
+    width: 60px;
+  }
+}
+
+.service-packages .card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.service-packages .card-header {
+  font-size: 1.5rem;
+}
+
+.custom-img-class {
+  width: 300px !important;
+  height: auto !important;
+}

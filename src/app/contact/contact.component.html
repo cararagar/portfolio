@@ -1,0 +1,41 @@
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5" data-aos="fade-up">Contáctame</h2>
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-right">
+        <form (ngSubmit)="onSubmit($event)" class="mb-4">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" id="email" class="form-control" placeholder="nombre@ejemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" id="asunto" class="form-control" placeholder="Asunto del mensaje" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea id="mensaje" rows="5" class="form-control" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom">Enviar Mensaje</button>
+        </form>
+        <div class="alert alert-success d-none" id="form-success" role="alert">
+          ¡Gracias por contactarme! Me pondré en contacto contigo pronto.
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h4><i class="bi bi-geo-alt-fill"></i> Encuéntrame en:</h4>
+        <p>Calle Falsa 123, Ciudad, País</p>
+        <h4><i class="bi bi-telephone-fill"></i> Teléfono:</h4>
+        <p>+34 675971999</p>
+        <h4><i class="bi bi-envelope-fill"></i> Email:</h4>
+        <p></p>
+        <!-- Mapa embebido -->
+        <iframe src="https://maps.google.com/maps?q=Alcal%C3%A1%20de%20Guada%C3%ADra&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
