@@ -25,7 +25,7 @@
           tras esto voy a comenzar a estudiar ingenieria de intelgigencia artificial,
           para poder dedicarme completamente a mi verdadera pasión.
         </p>
-        <a routerLink="/about" class="btn btn-outline-primary mt-3">Saber más sobre mí</a>
+        <a routerLink="/about" class="btn btn-light mt-3">Saber más sobre mí</a>
       </div>
     </div>
   </div>
@@ -36,33 +36,23 @@
   <div class="container">
     <h2 class="text-center mb-5" data-aos="fade-up">Lo Último en Mis Proyectos</h2>
     <div class="row">
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-6 mb-4 portfolio-item" data-category="web" data-aos="zoom-in" data-aos-delay="300">
         <div class="card">
-          <img src="assets/images/project1.jpg" class="card-img-top" alt="Proyecto 1">
+          <img src="https://lh3.googleusercontent.com/d/1c_AzjYy7TbzkhtfQWaCmu0tB4VDPJxlZ" class="card-img-top" alt="Proyecto 4">
           <div class="card-body">
-            <h5 class="card-title">Proyecto Innovador</h5>
-            <p class="card-text">Una plataforma web que optimiza la gestión empresarial.</p>
-            <a routerLink="/portfolio" class="btn btn-custom">Ver más</a>
+            <h5 class="card-title">Sitio E-commerce</h5>
+            <p class="card-text">Desarrollo de una plataforma de comercio electrónico completa.</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#projectModal4">Ver detalles</button>
           </div>
         </div>
       </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6 mb-4 portfolio-item" data-category="web" data-aos="zoom-in">
         <div class="card">
-          <img src="assets/images/project2.jpg" class="card-img-top" alt="Proyecto 2">
+          <img src="https://lh3.googleusercontent.com/d/1LCNlD5Yhy5bntbhoLH7ozpCLnCQBFR8s " class="card-img-top" alt="Proyecto 1">
           <div class="card-body">
-            <h5 class="card-title">Aplicación Móvil</h5>
-            <p class="card-text">Una app intuitiva para gestionar tareas diarias.</p>
-            <a routerLink="/portfolio" class="btn btn-custom">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card">
-          <img src="assets/images/project3.jpg" class="card-img-top" alt="Proyecto 3">
-          <div class="card-body">
-            <h5 class="card-title">Diseño UX/UI</h5>
-            <p class="card-text">Interfaces modernas y funcionales para una experiencia única.</p>
-            <a routerLink="/portfolio" class="btn btn-custom">Ver más</a>
+            <h5 class="card-title">Proyecto AI</h5>
+            <p class="card-text">Softeware basado den ia para prevención de enfermedades.</p>
+            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#projectModal1">Ver detalles</button>
           </div>
         </div>
       </div>
@@ -77,4 +67,41 @@
     <p class="lead">Ponte en contacto conmigo y transformemos tu idea en realidad.</p>
     <a routerLink="/contact" class="btn btn-custom btn-lg mt-3">Contáctame</a>
   </div>
+</section>
+<section>
+<div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="projectModal1Label">Proyecto Innovador</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Detalles completos del proyecto innovador. Se utilizó Angular, Node.js y MongoDB para desarrollar una solución escalable y eficiente.</p>
+        <img src="https://lh3.googleusercontent.com/d/1SGehrS2z_bh4LKk7i-MRGS3KlUwELxzE" alt="Detalle Proyecto 1" class="img-fluid rounded">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Proyecto 4 -->
+<div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="projectModal4Label">Sitio E-commerce</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>Detalles del desarrollo de un sitio de comercio electrónico, incluyendo integración de pasarelas de pago, optimización SEO y estrategias de conversión.</p>
+        <img src="assets/images/project4-detail.jpg" alt="Detalle Proyecto 4" class="img-fluid rounded">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 </section>

@@ -17,13 +17,13 @@
   top: 0;
   width: 40px;
   height: 40px;
-  background: #0e76a8;
+  background: #2E7D32;
   border-radius: 50%;
 }
 
 .timeline ul li .date {
   font-weight: bold;
-  color: #0e76a8;
+  color: #000000;
 }
 
 .timeline ul li .content {
