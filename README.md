@@ -23,16 +23,14 @@ Portada del Portafolio
 5. [Tecnologías y Herramientas](#tecnologías-y-herramientas)
 6. [Instalación y Configuración](#instalación-y-configuración)
 7. [Uso y Navegación](#uso-y-navegación)
-8. [Demo en Vivo](#demo-en-vivo)
-9. [Capturas de Pantalla](#capturas-de-pantalla)
-10. [Roadmap y Mejoras Futuras](#roadmap-y-mejoras-futuras)
-11. [Documentación Adicional](#documentación-adicional)
-12. [Contribuciones](#contribuciones)
-13. [Changelog](#changelog)
-14. [Licencia](#licencia)
-15. [Créditos y Agradecimientos](#créditos-y-agradecimientos)
-16. [Preguntas Frecuentes](#preguntas-frecuentes)
-17. [Contacto](#contacto)
+8. [Roadmap y Mejoras Futuras](#roadmap-y-mejoras-futuras)
+9. [Documentación Adicional](#documentación-adicional)
+10. [Contribuciones](#contribuciones)
+11. [Changelog](#changelog)
+12. [Licencia](#licencia)
+13. [Créditos y Agradecimientos](#créditos-y-agradecimientos)
+14. [Preguntas Frecuentes](#preguntas-frecuentes)
+15. [Contacto](#contacto)
 
 ---
 
@@ -180,10 +178,6 @@ Abre `http://localhost:3000` en tu navegador.
 
 ---
 
-## 📸 Capturas de Pantalla
-![Interfaz del Portafolio](ruta/a/imagen1.png)
-
----
 
 ## 📅 Roadmap y Mejoras Futuras
 - 📢 Blog integrado
