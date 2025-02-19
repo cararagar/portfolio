@@ -44,7 +44,7 @@ Este portafolio representa mi trayectoria como desarrollador. Aquí encontrarás
 
 ## 👨‍💻 Sobre Mí
 
-Hola, soy **[Tu Nombre]**, un desarrollador web especializado en [front-end, back-end, full-stack, etc.]. Con [X] años de experiencia, me especializo en crear soluciones innovadoras y eficientes.
+Hola, soy **Carlos**, un desarrollador web especializado en [front-end, back-end, full-stack, etc.]. Con [X] años de experiencia, me especializo en crear soluciones innovadoras y eficientes.
 
 **Habilidades Clave:**
 - Desarrollo de aplicaciones web responsivas
